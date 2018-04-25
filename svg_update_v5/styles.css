@@ -1,0 +1,154 @@
+body {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-family: 'Roboto Slab', serif;
+  font-weight: 300;
+  color: #111;
+  background: #edeff0;
+  background-image: url("svg/background.svg");
+
+}
+
+#container {
+  max-width: 960px;
+  background: #fff;
+  margin: 0 auto;
+  height: 100%; /* new line */
+}
+
+p {
+  max-width: 350px;
+  margin: 35px auto 0;
+  line-height: 2em;
+  text-align: left;
+}
+
+a {
+  text-decoration: none;
+  color: #39add1;
+  font-weight: 700;
+}
+
+a:hover,
+a:hover .nav-icon{
+  color: #111;
+  fill: #111;
+  transform: scale(1.3);
+}
+
+header {
+  padding-top: 10px;
+}
+
+header nav {
+  padding-bottom: 50px;
+  text-align: left;
+}
+
+header nav ul li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+main {
+  padding-top: 50px;
+}
+
+main h2 {
+  font-size: 28px;
+}
+
+footer {
+  width: 100%;
+  margin-top: 100px;
+  padding-bottom: 30px;
+  color: #ba8058;
+}
+
+.nav-icon {
+    width: 20px;
+    height: 20px;
+    margin: 0 5px;
+    fill: #39add1;
+    transition: transform .3s ease-out;
+}
+
+.logo:hover {
+  transform: rotate(360deg) scale(1.3);
+}
+
+.logo:hover .title-text {
+  transform: scale(1.5);
+}
+
+.logo {
+  width: 140px;
+  height: 120px;
+  fill: #fff;
+  transition: transform .3s ease-out;
+}
+
+h1 span {
+  display: none;
+}
+
+h1:before {
+  content: 'PAW PRINT KENNELS';
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.container p {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  margin-right: 40px;
+}
+
+.container svg {
+  width: 100%;
+  height: auto;
+}
+
+.corgi-sable {
+  color: #d1ad52;
+  fill: currentColor;
+}
+
+.corgi-fawn {
+  color: #e5aa70;
+  fill: currentColor;
+}
+
+.corgi-red {
+  color: #791b19;
+  fill: currentColor;
+}
+
+.corgi-stone {
+  color: #a9a9a9;
+  fill: currentColor;
+}
+
+@media (min-width: 425px) {
+  .logo {
+    fill: #eaaa7f;
+  }
+
+  h1 {
+    display: none;
+  }
+
+}
+
+
+
+
+
+
