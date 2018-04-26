@@ -159,12 +159,12 @@ a:hover .contact-icon {
   fill: currentColor;
 }
 
-#Layer_1 {
+.Layer_1 {
   width: 140px;
   height: 120px;
 }
 
-#Layer_1:hover {
+.Layer_1:hover {
   transform: rotate(25deg);
   transition: transform .3s ease-out;
 }
